@@ -8,7 +8,7 @@ body {
 
 .nav-bar {
   background-color: #f7f7f9;
-  padding: 20px 20px 15px 15px;
+  padding-top: 20px 20px 15px 15px;
 }
 
 .nav-list {
@@ -24,12 +24,4 @@ body {
   line-height: 20px;
   text-decoration: none;
   color: #6070ff;
-}
-
-.Roland {
-    background-color: red;
-}
-
-.menu-button {
-    border: none;
 }

@@ -25,57 +25,58 @@ body {
   text-decoration: none;
   color: #6070ff;
 }
-.menu-button {
-    border: none;
-    background-color: #f7f7f9;
-  }
-  
-  .desc-container {
-    background-image: url("./images/header-shapes-mobile.png"), url("./images/header-background-mobile.png");
-    background-repeat: no-repeat, no-repeat;
-    background-size: cover, 100% 100%;
-    padding-top: 114px;
-    padding-bottom: 114px;
-    padding-left: 24px;
-    padding-right: 24px;
-  }
 
-  .first-text {
-    width: 60%;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 40px;
-    line-height: 42px;
-    color: #172b4d;
-  }
-  
-  .second-text {
-    width: 100%;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    color: #344563;
-  }
-  
-  .icon {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
-  }
-  
-  .icon-img {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 10px;
-    padding-left: 0%;
-  }
-  
-  .icon-img li {
-    list-style-type: none;
-  }
+.menu-button {
+  border: none;
+  background-color: #f7f7f9;
+}
+
+.desc-container {
+  background-image: url("./images/header-shapes-mobile.png"), url("./images/header-background-mobile.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, 100% 100%;
+  padding-top: 114px;
+  padding-bottom: 114px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.first-text {
+  width: 60%;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 42px;
+  color: #172b4d;
+}
+
+.second-text {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #344563;
+}
+
+.icon {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.icon-img {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  padding-left: 0%;
+}
+
+.icon-img li {
+  list-style-type: none;
+}

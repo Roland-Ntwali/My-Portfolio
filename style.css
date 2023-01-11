@@ -8,7 +8,7 @@ body {
 
 .nav-bar {
   background-color: #f7f7f9;
-  padding: 20 15px;
+  padding: 20px 15px;
 }
 
 .nav-list {
@@ -35,7 +35,7 @@ body {
   background-image: url("./images/header-shapes-mobile.png"), url("./images/header-background-mobile.png");
   background-repeat: no-repeat, no-repeat;
   background-size: cover, 100% 100%;
-  padding: 114 24px;
+  padding: 114px 24px;
 }
 
 .first-text {

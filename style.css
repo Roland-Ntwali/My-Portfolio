@@ -32,29 +32,36 @@ body {
 }
 
 .desc-container {
-  background-image: url("./images/header-shapes-mobile.png"), url("./images/header-background-mobile.png");
-  background-repeat: no-repeat, no-repeat;
-  background-size: cover, 100% 100%;
-  padding: 114px 24px;
+  padding-top: 100px;
+  background: url(./images/header-shapes-mobile.png) no-repeat;
+  background-size: 100%;
+  background-color: #fff;
+  height: 700px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 0 0 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
 }
 
-.first-text {
-  width: 60%;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 42px;
-  color: #172b4d;
+.text-one {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+color: #172B4D;
 }
 
-.second-text {
-  width: 100%;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: #344563;
+.text-two {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #344563;
 }
 
 .icon {

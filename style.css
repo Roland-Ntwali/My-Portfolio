@@ -7,8 +7,9 @@ body {
 }
 
 .nav-bar {
-  background-color: #f7f7f9;
+  background-color: #fff;
   padding: 20px 15px;
+  justify-content: space-between;
 }
 
 .nav-list {

@@ -171,13 +171,14 @@ button:disabled {
 }
 
 .click-btn {
-  font-size: 19px;
+  font-size: 20px;
   color: #396df2;
   padding: 13px;
   background-color: transparent;
   margin-top: 2rem;
   border: 1px solid #396df2;
-  border-radius: 6px;
+  border-radius: 10px;
+  font-weight: 550;
 }
 
 .card-contain {

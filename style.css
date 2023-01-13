@@ -7,6 +7,7 @@ body {
   font-family: 'poppins', sans-serif;
   font-weight: 200;
   background-color: #e5e5e5;
+  box-sizing: border-box;
 }
 
 .nav-bar {
@@ -46,7 +47,6 @@ body {
   border-radius: 0 0 0 100px;
   display: flex;
   flex-direction: column;
-  align-items: baseline;
   justify-content: center;
 }
 
@@ -68,6 +68,7 @@ body {
   line-height: 24px;
   color: #344563;
   justify-content: center;
+  padding-right: 35px;
 }
 
 .lists-container {
@@ -101,28 +102,50 @@ body {
 }
 
 .hold-image {
-  display: block;
+  /* display: block;
   border-radius: 8px;
   padding: 0;
   margin: 1px -23px;
   height: auto;
-  width: 330px;
-  top: 16px;
+  top: 16px; */
+  height: 300px;
+  width: 90%;
+  border-radius: 8px;
 }
 
 .lists {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+
+  /* width: 80%; */
 }
 
 .lists-item {
+  /* color: #7a869a;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  justify-content: baseline; */
   color: #7a869a;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
-  justify-content: baseline;
+  flex-grow: 50;
+}
+
+#back {
+  /* white-space: nowrap; */
+  display: block;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#list-item {
+  color: #344563;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .lang-container {
@@ -190,6 +213,7 @@ button:disabled {
   background-color: #fff;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 
 .btn {
@@ -203,7 +227,6 @@ button:disabled {
 }
 
 .about-container {
-  width: 90%;
   margin: 0 auto;
   overflow: hidden;
   background-color: #fff;
@@ -220,7 +243,8 @@ button:disabled {
   display: flex;
   align-content: center;
   flex-direction: column;
-  gap: 30px;
+
+  /* gap: 30px; */
   list-style-type: none;
   padding: 0%;
 }
@@ -230,6 +254,13 @@ button:disabled {
   justify-content: space-between;
   align-items: center;
   margin-right: 20px;
+  color: #000;
+}
+
+#para {
+  color: #000;
+  font-weight: 500;
+  font-size: 24px;
 }
 
 .languages {
@@ -253,11 +284,21 @@ button:disabled {
 
 .languages li a {
   text-decoration: none;
-  color: #000;
+  color: #344563;
+  font-weight: bold;
 }
 
 .lang-exp {
   margin: 0;
   display: grid;
   grid-gap: 20px;
+}
+
+.hr {
+  height: 1px;
+  width: 327px;
+  left: 0;
+  top: 71px;
+  border-radius: 0;
+  color: #000;
 }

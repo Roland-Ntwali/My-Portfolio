@@ -9,7 +9,6 @@ body {
   background-color: #e5e5e5;
 }
 
-
 .nav-bar {
   background-color: #fff;
   padding: 20px 15px;
@@ -106,7 +105,7 @@ body {
   border-radius: 8px;
   padding: 0;
   margin: 1px -23px;
-  height:auto;
+  height: auto;
   width: 330px;
   top: 16px;
 }

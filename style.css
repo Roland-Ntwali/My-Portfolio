@@ -302,3 +302,69 @@ button:disabled {
   border-radius: 0;
   color: #000;
 }
+
+.contacts {
+  background-image: url("./images/contactshapes.png");
+  display: flex;
+  background-color: #396df2;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 90% 100%;
+  border-top-left-radius: 100px;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 10px;
+  margin: 0 auto 50px;
+  background-repeat: no-repeat;
+}
+
+.contact-intro {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-me {
+  font-family: "poppins", sans-serif;
+  margin-block-end: 0;
+  font-size: 40px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.paragraph {
+  width: 380px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+}
+
+.text-holder1 {
+  height: 3rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 12px;
+  margin-bottom: 3px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-area {
+  color: #b3bac5;
+  height: 10rem;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 12px;
+  font-family: 'Poppins', sans-serif;
+}

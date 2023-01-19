@@ -10,10 +10,14 @@
 <body>
     <header class="nav-bar">
 
-        <nav class="nav-list">
+        <nav class="navig-list">
             
-            <a class="logo" href="#">My Logo</a>
-
+            <a id="logo" class="logo" href="#">My Logo</a>
+            <ul class="nav-list">
+              <li class="navi-item"><a href="#Portfolio">Portofolio</a></li>
+              <li class="navi-item"><a href="#About">About</a></li>
+              <li class="navi-item"><a href="#Contact">Contact</a></li>
+            </ul>
             <button class="menu-button">
                 <img class="mobile-menu" src="images/nav.png" alt=" navigation" />
             </button>
@@ -69,11 +73,11 @@
         <ul class="cards-list">
           <li class="hold-item">
             <img
-              class="hold-image"
+              class="hold-image" id="hold-image1"
               src="./images/Portfolio_1.png"
               alt="Portofolio"
             />
-            <section>
+            <section class="details1">
               <div class="lists-container">
                 <h2>Tonic</h2>
                 <div class="lists">
@@ -93,7 +97,7 @@
                 </div>
               </div>
 
-              <div class="text-two">
+              <div class="text-two" id="text2">
                 <p>
                   A daily selection of privately personalized reads; no accounts
                   or sign-ups required.
@@ -115,14 +119,14 @@
 
       <div class="card-contain">
         <ul class="cards-list">
-          <li class="hold-item">
+          <li class="hold-item" id="reverse">
             <img
-              class="hold-image"
+              class="hold-image" id="hold-image1"
               src="images/Snapshoot5.png"
               alt="Portofolio"
             />
             <div>
-              <section id="Portfolio">
+              <section id="Portfolio" class="details1">
                 <div class="lists-container">
                   <h2>Multi-Post <br> Stories</h2>
                   <div class="lists">
@@ -141,7 +145,7 @@
                     <span class="lists-item">2015</span>
                   </div>
                 </div>
-                <div class="text-two">
+                <div class="text-two" id="text2">
                   <p>
                     A daily selection of privately personalized reads; no
                     accounts or sign-ups required.
@@ -165,11 +169,11 @@
         <ul class="cards-list">
           <li class="hold-item">
             <img
-              class="hold-image"
+              class="hold-image" id="hold-image1"
               src="images/Snapshoot-4.png"
               alt="Portofolio"
             />
-            <section>
+            <section class="details1">
               <div class="lists-container">
                 <h2>Tonic</h2>
                 <div class="lists">
@@ -188,7 +192,7 @@
                   <span class="lists-item">2015</span>
                 </div>
               </div>
-              <div class="text-two">
+              <div class="text-two" id="text2">
                 <p>
                   A daily selection of privately personalized reads; no accounts
                   or sign-ups required.
@@ -209,13 +213,13 @@
 
       <div class="card-contain">
         <ul class="cards-list">
-          <li class="hold-item">
+          <li class="hold-item" id="reverse">
             <img
-              class="hold-image"
+              class="hold-image" id="hold-image1"
               src="images/Portfolio_4.png"
               alt="Portofolio"
             />
-            <section>
+            <section class="details1">
               <div class="lists-container">
                 <h2>Multi-Post <br> Stories</h2>
                 <div class="lists">
@@ -234,8 +238,8 @@
                   <span class="lists-item">2015</span>
                 </div>
               </div>
-              <div class="text-two">
-                <p class="text-two">
+              <div class="text-two" id="text2">
+                <p class="text-two" id="text2">
                   A daily selection of privately personalized reads; no accounts
                   or sign-ups required.
                 </p>
@@ -254,20 +258,20 @@
       </div>
     </section>
     <section class="about-container">
-      <div class="about-me-holder">
-        <section>
+      <div class="about-me-holder" id="reverse2">
+        <section class="about-my-self">
           <h2 class="first-text">
             About <br />
             Myself
           </h2>
-          <p class="text-two">
+          <p class="text-two" id="about-text1">
             Hello I'm a software developer! I can help you build a product ,
             feature or website Look through some of my work and experience! If
             you like what you see and have a project you need coded, don’t
             hestiate to contact me.
           </p>
           <h4 class="icon">LET'S CONNECT</h4>
-          <ul class="icon-img">
+          <ul class="icon-img" id="about-me-icons">
             <li>
               <a href="#"
                 ><img
@@ -306,7 +310,7 @@
               /></a>
             </li>
           </ul>
-          <button type="button" class="click-btn">Get my resume</button>
+          <button type="button" id="get-my-resume-btn"class="click-btn">Get my resume</button>
         </section>
         <section>
           <ul class="lang">
@@ -331,7 +335,7 @@
               </ul>
             </li>
             <li class="lang-exp">
-              <div class="no-1">
+              <div class="no-1" id="gap-framework">
                 <p id="para">Frameworks</p>
                 <img src="images/arrow_right.png" alt="arrow_bottom" />
               </div>

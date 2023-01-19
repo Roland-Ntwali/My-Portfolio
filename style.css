@@ -16,6 +16,13 @@ body {
   justify-content: space-between;
 }
 
+@media (min-width: 728px) {
+  .nav-bar {
+    width: 1440px;
+    margin: auto;
+  }
+}
+
 .navig-list {
   display: flex;
   justify-content: space-between;
@@ -35,22 +42,23 @@ body {
   border: none;
   background-color: #f7f7f9;
 }
+
 .nav-list {
   display: none;
 }
 
 @media only screen and (min-width: 768px) {
-
   .logo {
     padding-top: 15px;
   }
+
   .nav-container {
     width: 90%;
     margin: 0 auto;
   }
 
   .navibar {
-    position: fixed;
+    display: flex;
     width: 100%;
     padding: 0;
     background-color: #fff;
@@ -74,13 +82,12 @@ body {
 
   .navi-item a {
     color: #344563;
-font-family: Poppins;
-font-size: 15px;
-font-weight: 500;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: center;
-
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
     text-decoration: none;
     transition-property: top;
     transition-duration: 1s;
@@ -91,6 +98,7 @@ text-align: center;
     color: #620bd3;
   }
 }
+
 .desc-container {
   padding-top: 100px;
   background: url(./images/header-shapes-mobile.png) no-repeat;
@@ -105,11 +113,15 @@ text-align: center;
   justify-content: center;
 }
 
-@media (min-width: 728px) { 
+@media (min-width: 728px) {
   .desc-container {
     background: url(./images/Header\ bg@2x.png);
-    background-size: 100%;
+    background-size: 90%;
     background-color: #fff;
+    width: 1422px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 150px;
   }
 }
 
@@ -123,22 +135,20 @@ text-align: center;
 }
 
 @media (min-width: 728px) {
-  .text-one{
-display: flex;
-font-family: Poppins;
-font-size: 48px;
-font-weight: 700;
-line-height: 60px;
-letter-spacing: 0.3700000047683716px;
-text-align: left;
-height: 122px;
-width: 920px;
-left: 0px;
-top: 0px;
-left: 0px;
-top: 1px;
-flex-direction: row;
-align-self: center;
+  .text-one {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.3700000047683716px;
+    text-align: left;
+    height: 122px;
+    width: 920px;
+    top: 0;
+    left: 0;
+    flex-direction: row;
+    align-self: center;
   }
 }
 
@@ -154,34 +164,30 @@ align-self: center;
   padding-right: 35px;
 }
 
-@media (min-width:728px){
-  .text-two{
-font-family: Poppins;
-font-size: 20px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0em;
-text-align: left;
-align-self:center;
-height: 98px;
-width: 920px;
-left: 0px;
-top: 134px;
-
+@media (min-width: 728px) {
+  .text-two {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: left;
+    align-self: center;
+    height: 98px;
+    width: 920px;
+    left: 0;
+    top: 134px;
   }
 }
 
-@media (min-width:728px){
+@media (min-width: 728px) {
   #text2 {
-height: 70px;
-width: 496px;
-left: 24px;
-top: 146px;
-
+    height: 70px;
+    width: 496px;
+    left: 24px;
+    top: 146px;
   }
 }
-
-
 
 .lists-container {
   font-family: "Poppins", sans-serif;
@@ -201,16 +207,16 @@ top: 146px;
   color: #7f8cff;
 }
 
-@media (min-width:728px) {
+@media (min-width: 728px) {
   .icon {
     height: 24px;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
-    align-self:center;
+    align-self: center;
     width: 920px;
   }
 }
@@ -223,61 +229,67 @@ top: 146px;
   padding-left: 0%;
 }
 
-@media (min-width:720px) {
+@media (min-width: 720px) {
   .icon-img {
     display: flex;
-  align-self:center;
-height: 98px;
-width: 920px;
-text-align: left;
+    align-self: center;
+    height: 98px;
+    width: 920px;
+    text-align: left;
   }
 }
 
 .icon-img li {
   list-style-type: none;
 }
-@media (min-width:728px){
+
+@media (min-width: 728px) {
   .hold-item {
     display: flex;
     flex-direction: row;
     width: 70%;
+
     /* justify-content: space-between; */
     gap: 20px;
     margin: 0 auto;
-   justify-content: space-around;
-   align-content: center;
+    justify-content: space-around;
+    align-content: center;
   }
 }
+
 .hold-image {
   height: 300px;
   width: 90%;
   border-radius: 8px;
 }
-@media (min-width:728px){
-  #hold-image1{
+
+@media (min-width: 728px) {
+  #hold-image1 {
     width: 544px;
     height: 448px;
   }
 
-  @media (min-width:728px){
-    .details1{
+  @media (min-width: 728px) {
+    .details1 {
       height: 448px;
-width: 544px;
+      width: 544px;
     }
   }
-@media (min-width:728px){
-  #reverse {
-    display: flex;
-    flex-direction: row-reverse;
+
+  @media (min-width: 728px) {
+    #reverse {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  }
+
+  @media (min-width: 728px) {
+    .cards-list {
+      margin-left: -39px;
+    }
   }
 }
 
-@media (min-width:728px){
-  .cards-list{
-    margin-left: -39px;
-  }
-}
-}
 .lists {
   display: flex;
   justify-content: space-between;
@@ -362,7 +374,8 @@ button:disabled {
 
 .card-contain {
   display: flex;
-  border: 1px solid #7a869a;
+
+  /* border: 1px solid #7a869a; */
   width: 88%;
   margin: 12px auto;
   border-radius: 16px;
@@ -372,15 +385,17 @@ button:disabled {
   margin-bottom: 5rem;
 }
 
-@media (min-width:728px){
+@media (min-width: 728px) {
   .card-contain {
-/* height: 496px; */
-width: 1156px;
-left: 0px;
-top: 0px;
-border-radius: 24px;
+    /* height: 496px; */
+    width: 1156px;
+    left: 0;
+    top: 0;
+    border-radius: 24px;
+    display: flex;
   }
-  }
+}
+
 .btn {
   height: 10px;
   padding: 9px;
@@ -402,6 +417,12 @@ border-radius: 24px;
   padding-right: 28px;
   background-repeat: no-repeat, no-repeat;
   background-size: cover, 100% 100%;
+}
+
+@media (min-width: 728px) {
+  .about-container {
+    width: 1440px;
+  }
 }
 
 .lang {
@@ -479,6 +500,7 @@ border-radius: 24px;
   width: 375px;
   left: 0;
   top: 5410px;
+  margin: auto;
 }
 
 .contact-section {

@@ -268,12 +268,22 @@ body {
   height: 300px;
   width: 90%;
   border-radius: 8px;
+  transition: width , height ;
+}
+.hold-image:hover {
+width: 380px;
+height: 340px;
 }
 
 @media (min-width: 728px) {
   #hold-image1 {
     width: 544px;
     height: 448px;
+    transition: width, height;
+  }
+  #hold-image1:hover {
+    width: 570Px;
+    height: 458px;
   }
 
   @media (min-width: 728px) {

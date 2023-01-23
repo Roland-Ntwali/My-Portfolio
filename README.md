@@ -86,7 +86,7 @@ To run : Use test commands
 
 ### Deployment
 
-You can deploy this project using: gcloud app deploy
+[Github Pages](https://roland-ntwali.github.io/My-Portfolio/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

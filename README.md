@@ -49,7 +49,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Roland-Ntwali's Portfolio](https://roland-ntwali.github.io/My-Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,7 +86,7 @@ To run : Use test commands
 
 ### Deployment
 
-You can deploy this project using: gcloud app deploy
+[My-Portfolio](https://roland-ntwali.github.io/My-Portfolio/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -49,7 +49,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://roland-ntwali.github.io/My-Portfolio/)
+- [Roland-Ntwali My-Portfolio](https://roland-ntwali.github.io/My-Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,7 +86,7 @@ To run : Use test commands
 
 ### Deployment
 
-[Github Pages](https://roland-ntwali.github.io/My-Portfolio/)
+[My-Portfolio](https://roland-ntwali.github.io/My-Portfolio/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -961,7 +961,7 @@ button:disabled {
   border: none;
 }
 
-@media only screen and (min-width: 728px) {
+@media (min-width: 728px) {
   #mobile-menu {
     display: none;
   }

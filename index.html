@@ -13,7 +13,7 @@
 
         <nav class="navig-list">
             
-            <a id="logo" class="logo" href="#">My Logo</a>
+            <a id="logo" class="logo" href="#">Roland</a>
             <ul class="nav-list">
               <li class="navi-item"><a href="#Portfolio">Portofolio</a></li>
               <li class="navi-item"><a href="#About">About</a></li>
@@ -29,14 +29,20 @@
     </header>
 
     <section id="mobile_menu">
-      <img id="close_menu" src="images/Icon.png" alt="close-menu">
-      <ul>
-        <li class="navbar-item menu">
-          <a href="#Portfolio">Portofolio</a>
+      <div>
+        <img id="close_menu" src="images/Icon.png" alt="close-menu">
+      <ul id="hideb">
+        <li class="navbar-item-menu">
+          <a href="#Portfolio-link">Portfolio</a>
         </li>
-        <li class="navbar-item menu"><a href="#About">About</a></li>
-        <li class="navbar-item menu"><a href="#Contact">Contact</a></li>
+        <li class="navbar-item-menu"><a href="#About-link">About</a></li>
+        <li class="navbar-item-menu"><a href="#Contact-link">Contact</a></li>
       </ul>
+      </div>
+      <div class="linefooter-contactform" id="menu-line-position">
+      <hr>
+      </div>
+      
     </section>
 
     <section class="desc-container">
@@ -80,7 +86,7 @@
       </section>
 
        
-    <section class="projects">
+    <section class="projects" id="Portfolio-link">
       <div class="card-contain">
         <ul class="cards-list">
           <li class="hold-item">
@@ -269,7 +275,7 @@
         </ul>
       </div>
     </section>
-    <section class="about-container">
+    <section class="about-container" id="About-link">
       <div class="about-me-holder" id="reverse2">
         <section class="about-my-self">
           <h2 class="first-text">
@@ -365,7 +371,7 @@
       </div>
     </section>
     <footer>
-<section class="contacts">
+<section class="contacts" id="Contact-link">
       <div class="contact-intro">
         <h2 class="contact-me">Contact me</h2>
         <p class="paragraph">

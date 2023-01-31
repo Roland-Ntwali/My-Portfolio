@@ -71,7 +71,6 @@ body {
   flex-direction: column;
   justify-content: start;
   background-color: #6070ff;
-  backdrop-filter: blur(3px);
   gap: 8px;
   font-size: larger;
   list-style-type: none;
@@ -82,6 +81,8 @@ body {
   bottom: 0;
   margin: 0;
   z-index: 99;
+  backdrop-filter: blur(5px);
+  
 }
 
 #close_menu {
@@ -95,7 +96,11 @@ body {
   bottom: 25%;
   color: #fff;
 }
-
+#menu-line-position{
+  position: absolute;
+  bottom: 1%;
+  
+}
 .nav-list {
   display: none;
 }
@@ -949,13 +954,14 @@ button:disabled {
 
 #mobile_menu.show {
   display: flex;
+  backdrop-filter: blur(5px);
 }
 
 .menu_button {
   border: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 728px) {
   #mobile-menu {
     display: none;
   }

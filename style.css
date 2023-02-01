@@ -14,6 +14,9 @@ body {
   background-color: #fff;
   padding: 20px 15px;
   justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
 }
 
 @media (min-width: 728px) {
@@ -26,6 +29,10 @@ body {
 .navig-list {
   display: flex;
   justify-content: space-between;
+  width: 90%;
+
+  /* position: fixed;
+  overflow: hidden; */
 }
 
 @media (min-width: 728px) {
@@ -70,11 +77,10 @@ body {
   display: none;
   flex-direction: column;
   justify-content: start;
-  background-color: #6070ff;
+  background-color: rgba(96, 112, 255, 0.9);
   gap: 8px;
   font-size: larger;
   list-style-type: none;
-  opacity: 0.9;
   top: 0;
   left: 0;
   right: 0;
@@ -967,6 +973,12 @@ button:disabled {
   }
 
   #menu_btn {
+    display: none;
+  }
+}
+
+@media (min-width: 728px) {
+  .menu_btn {
     display: none;
   }
 }

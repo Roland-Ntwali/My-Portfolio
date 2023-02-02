@@ -3,21 +3,17 @@
 .project-detail-card {
   position: fixed;
   top: 0;
-  left: 0;
-  background-color: #fff;
+  background: #fff;
   overflow-x: hidden;
-  height: 823px;
-width: 375px;
-left: 0px;
-top: 0px;
-border-radius: 0px;
-display: flex;
-margin: auto;
-border-radius: 16px;
-align-items: center;
-margin-top: 9%;
-margin-left: 7%;
-
+  height: 94%;
+  width: 88%;
+  left: 0;
+  display: flex;
+  margin: auto;
+  border-radius: 16px;
+  align-items: center;
+  margin-top: 6%;
+  margin-left: 6%;
 }
 
 .modal-content {
@@ -25,14 +21,12 @@ margin-left: 7%;
   flex-direction: column;
   overflow-y: scroll;
   margin: 0 auto;
-
   height: 713px;
-width: 343px;
-left: 16px;
-top: 60px;
-border-radius: 16px;
-padding: 16px;
-
+  width: 343px;
+  left: 16px;
+  top: 60px;
+  border-radius: 16px;
+  padding: 16px;
 }
 
 .modal-prof {
@@ -42,63 +36,58 @@ padding: 16px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-
   height: 36px;
-width: 100%;
-left: 0px;
-top: 8px;
-
-font-size: 13px;
-font-weight: 600;
-line-height: 16px;
-letter-spacing: 0em;
-text-align: left;
-
+  width: 100%;
+  left: 0;
+  top: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
 }
 
 .modal-prof .project-liste {
   padding: 0;
   list-style-type: circle;
   width: 100%;
-display: flex;
-margin-top: 8%;
-align-items: center;
+  display: flex;
+  margin-top: 8%;
+  align-items: center;
 }
 
 .lister {
   display: inline-block;
   list-style-type: circle;
-  margin-right: 20px;
+  white-space: nowrap;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
 }
 
 #close-popUp {
-  position: absolute;
-  right: 20px;
-  top: 10px;
-  padding: 0 5px;
   font-size: 35px;
   cursor: pointer;
   color: #1a2236;
-  right: -30%;
-top: -10%;
 }
 
 .modal-image {
   height: auto;
-width: 343px;
-left: 16px;
-top: 112px;
-border-radius: 8px;
-
+  width: 343px;
+  left: 16px;
+  top: 112px;
+  border-radius: 8px;
 }
 
 .modal-image img {
   height: auto;
-width: 343px;
-left: 16px;
-top: 112px;
-border-radius: 8px;
-margin-top: 9%;
+  width: 90%;
+  left: 16px;
+  top: 112px;
+  border-radius: 8px;
+  margin-top: 9%;
 }
 
 .modal-head {
@@ -106,21 +95,22 @@ margin-top: 9%;
   display: flex;
   align-items: center;
   height: 36px;
-width: 259px;
-left: 0px;
-top: 2px;
-margin-bottom: 10px;
+  width: 100%;
+  left: 0;
+  top: 2px;
+  margin-bottom: 10px;
+  justify-content: space-between;
 }
 
 .modal-head h2 {
   width: 50%;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .modal-main {
@@ -131,29 +121,25 @@ margin-bottom: 10px;
 }
 
 .modal-description {
-  /* width: 70%; */
-  font-family: 'Poppins', sans-serif;
-  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
   color: #344563;
-  margin-top: 10%;
-  height: 220px;
-width: 311px;
-left: 0px;
-top: 0px;
-
-font-size: 15px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-
-  /* background-color: palegoldenrod; */
+  height: 120px;
+  width: 311px;
+  left: 0;
+  top: 0;
 }
 
 .modal-tech {
-  /* background-color: blue; */
   padding-right: 10px;
   margin-top: 70px;
+}
+
+.modal-technolog {
+  margin-top: 15px;
 }
 
 .project-lists {
@@ -181,25 +167,29 @@ text-align: left;
   margin: 0 3px;
   color: #6070ff;
   font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 16px;
-background: #EBEBFF;
-border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  background: #ebebff;
+  border-radius: 8px;
 }
 
 .click-btn {
   /* font-size: 15px; */
   color: #396df2;
+
   /* padding: 8px; */
   background-color: transparent;
   border: 1px solid #396df2;
+
   /* border-radius: 6px; */
   width: 40%;
+
   /* margin: 10px 10px; */
   text-decoration: none;
   text-align: left;
+
   /* position: relative; */
 
   font-size: 20px;
@@ -221,19 +211,29 @@ border-radius: 8px;
 } */
 
 .click-btn a {
-  margin-right: 7px;
+  /* margin-right: 7px; */
   padding-right: 13px;
   text-decoration: none;
   height: 20px;
-left: 22px;
-top: 14px;
-display: flex;
-align-items: inherit;
-margin: auto;
-
+  left: 22px;
+  top: 14px;
+  display: flex;
+  align-items: inherit;
+  margin: auto;
+  white-space: nowrap;
+  color: #396df2;
+  font-weight: 500;
+  font-size: 15px;
 }
 
-@media only screen and (max-width: 768px) {
+.inline {
+  display: flex;
+  justify-content: space-between;
+
+  /* margin-top: 120px; */
+}
+
+@media (max-width: 728px) {
   .modal-main {
     width: 95%;
     flex-direction: column;
@@ -251,7 +251,13 @@ margin: auto;
     font-family: 'Poppins', sans-serif;
     text-align: left;
     color: #344563;
-    font-size: 18px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
 
     /* background-color: palegoldenrod; */
   }
@@ -276,4 +282,24 @@ margin: auto;
     margin-bottom: 12px;
     justify-content: flex-start;
   }
+}
+
+#canopy {
+  color: #344563;
+}
+
+#btn-popup {
+  height: 10px;
+  padding: 9px;
+  margin-top: 1px;
+}
+
+.line-popup {
+  height: 3px;
+  width: 303px;
+  left: 4px;
+  top: 8px;
+  border-radius: 0;
+  border: 1px solid #ebecf0;
+  color: blue;
 }

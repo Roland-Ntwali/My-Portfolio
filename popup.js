@@ -10,7 +10,6 @@ const projects = [
   },
   {
     title: 'TONIC 2',
-
     prof: ['Canopy', 'back end Dev', '2015'],
     src: 'images/SnapshootPortfolio.png',
     description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent"],
@@ -59,15 +58,15 @@ function desktop(index) {
         </div>
         <div class="modal-prof">
             <ul class="project-liste">
-            <li class="lister">${projects[index].prof[0]}</li>
+            <li id="canopy" class="lister">${projects[index].prof[0]}</li>
             <img
-                    class="btn"
+                    id="btn-popup"
                     src="images/Counter.png"
                     alt="Dot"
                   />
             <li class="lister">${projects[index].prof[1]}</li>
             <img
-                    class="btn"
+                    id="btn-popup"
                     src="images/Counter.png"
                     alt="Dot"
                   />
@@ -78,12 +77,12 @@ function desktop(index) {
         <div class="modal-image">
         <img src=${projects[index].src} alt="Screenshot-of-" >
         </div>
-        <div class="modal-main">
-  <div class="modal-description">
+        
+        <div class="modal-description">
     <p>${projects[index].description}</p>
   </div>
-  <div class="modal-tech">
-  <div class="modal-technolog">
+  
+<div class="modal-technolog">
   <ul class="project-lists">
     <li class="list">${projects[index].technologies[0]}</li>
 
@@ -98,8 +97,8 @@ function desktop(index) {
     <li class="lisp">${projects[index].technologies[5]}</li>
  <ul>
 </div>
-
-</div>
+<hr class="line-popup">
+</button>
 <div class="inline">
 <button class="click-btn">
 <a href="${projects[index].seeLiveLink}">See Live <img src="images/Icon-Export.svg" alt="See live"></i></a>
@@ -107,10 +106,10 @@ function desktop(index) {
 <button class="click-btn">
 <a href="${projects[index].seeSourceLink}">See Source <img src="images/ggg.png" alt="Github icon"></a>
 </div>
-</button>
 </div>
+
 </div>
-</div>
+
 </div>
     </div>
     </section>
@@ -139,8 +138,9 @@ function mobile(index) {
             <images src =${projects[index].src}
         </div>
         </div>
-
-    <p class="modal-description">${projects[index].description}</p>
+    <div class= text-two>
+    <p>${projects[index].description}</p>
+    </div>
   
   <div class="modal-technolog">
   <ul class="project-lists">
@@ -156,7 +156,7 @@ function mobile(index) {
   </ul>
 </div>
 
-<ul class="show-project">
+<hr class="line-popup">
 
 <li>
 <button>

@@ -1001,6 +1001,7 @@ button:disabled {
     display: none;
   }
 }
+
 #form-error {
   display: none;
   background-color: #dfe1e6;

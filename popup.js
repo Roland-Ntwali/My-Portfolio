@@ -3,16 +3,17 @@ const projects = [
     title: 'TONIC 1',
     prof: ['Canopy', 'back end Dev', '2015'],
     src: 'images/SnapshootPortfolio.png',
-    description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent"],
+    description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe."],
     technologies: ['html', 'css', 'javascript', 'Github', 'Ruby', 'Bootstrap'],
     seeLiveLink: '#',
     seeSourceLink: '#',
   },
   {
     title: 'TONIC 2',
+
     prof: ['Canopy', 'back end Dev', '2015'],
     src: 'images/SnapshootPortfolio.png',
-    description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent"],
+    description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe."],
     technologies: ['html', 'css', 'javascript', 'Github', 'Ruby', 'Bootstrap'],
     seeLiveLink: '#',
     seeSourceLink: '#',
@@ -21,7 +22,7 @@ const projects = [
     title: 'TONIC 3',
     prof: ['Canopy', 'back end Dev', '2015'],
     src: 'images/SnapshootPortfolio.png',
-    description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent"],
+    description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe."],
     technologies: ['html', 'css', 'javascript', 'Github', 'Ruby', 'Bootstrap'],
     seeLiveLink: '#',
     seeSourceLink: '#',
@@ -30,7 +31,7 @@ const projects = [
     title: 'TONIC 4',
     prof: ['Canopy', 'back end Dev', '2015'],
     src: 'images/SnapshootPortfolio.png',
-    description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent"],
+    description: ["Roland"],
     technologies: ['html', 'css', 'javascript', 'Github', 'Ruby', 'Bootstrap'],
     seeLiveLink: '#',
     seeSourceLink: '#',
@@ -77,12 +78,12 @@ function desktop(index) {
         <div class="modal-image">
         <img src=${projects[index].src} alt="Screenshot-of-" >
         </div>
-        
-        <div class="modal-description">
+        <div class="modal-main">
+  <div class="modal-description">
     <p>${projects[index].description}</p>
   </div>
-  
-<div class="modal-technolog">
+  <div class="modal-tech">
+  <div class="modal-technolog">
   <ul class="project-lists">
     <li class="list">${projects[index].technologies[0]}</li>
 
@@ -98,18 +99,19 @@ function desktop(index) {
  <ul>
 </div>
 <hr class="line-popup">
-</button>
 <div class="inline">
-<button class="click-btn">
+  <button class="click-btnn">
 <a href="${projects[index].seeLiveLink}">See Live <img src="images/Icon-Export.svg" alt="See live"></i></a>
 </button>
-<button class="click-btn">
+<button class="click-btnn">
 <a href="${projects[index].seeSourceLink}">See Source <img src="images/ggg.png" alt="Github icon"></a>
+</button>
 </div>
 </div>
 
 </div>
-
+</div>
+</div>
 </div>
     </div>
     </section>
@@ -138,10 +140,9 @@ function mobile(index) {
             <images src =${projects[index].src}
         </div>
         </div>
-    <div class= text-two>
+  <div class="modal-description">
     <p>${projects[index].description}</p>
-    </div>
-  
+  </div>
   <div class="modal-technolog">
   <ul class="project-lists">
   
@@ -155,22 +156,12 @@ function mobile(index) {
  
   </ul>
 </div>
-
-<hr class="line-popup">
-
-<li>
 <button>
 <a href="${projects[index].seeLiveLink}">See Live <img src="img/github.png" alt="See live"></i></a>
 </button>
-</li>
-<li>
 <button>
 <a href="${projects[index].seeSourceLink}">See Source <img src="img/github.png" alt="Github icon"></a>
 </button>
-</li>
-
-<ul>
-
 </div>
     </div>
     </section>`;

@@ -530,7 +530,7 @@ button:disabled {
 
 @media (min-width: 728px) {
   .about-container {
-    width: 1440px;
+    width: 100%;
     height: 924px;
     top: 4535px;
   }

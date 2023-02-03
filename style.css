@@ -175,6 +175,7 @@ body {
   background-color: #fff;
   height: 700px;
   padding-left: 24px;
+  padding-right: 24px;
   border-radius: 0 0 0 100px;
   display: flex;
   flex-direction: column;
@@ -186,7 +187,7 @@ body {
     background: url(./images/Header\ bg@2x.png);
     background-size: 90%;
     background-color: #fff;
-    width: 100%;
+    width: 1422px;
     margin: auto;
     display: flex;
     margin-bottom: 150px;
@@ -532,6 +533,8 @@ button:disabled {
     width: 100%;
     height: 924px;
     top: 4535px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 

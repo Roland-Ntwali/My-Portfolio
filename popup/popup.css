@@ -99,13 +99,7 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-
-  /* or 138% */
-
-  /* Neutrals/N800 */
   color: #172b4d;
-
-  /* background-color: #18da25; */
 }
 
 .modal-main {
@@ -122,12 +116,9 @@
   color: #344563;
   font-size: 18px;
   font-weight: 400;
-
-  /* background-color: palegoldenrod; */
 }
 
 .modal-tech {
-  /* background-color: blue; */
   padding-right: 10px;
 }
 
@@ -180,10 +171,6 @@
   top: 5px;
 }
 
-/* .click-btn .one img{
-  position: absolute;
-  top: 0;
-} */
 
 .click-btn a {
   margin-right: 7px;
@@ -218,8 +205,6 @@
 }
 
 .click-btnn img {
-  /* position: absolute;
-  top: 5px; */
   margin-left: 10px;
 }
 
@@ -256,8 +241,6 @@
     color: #344563;
     font-size: 18px;
     font-weight: 400;
-
-    /* background-color: palegoldenrod; */
   }
 
   .click-btn {

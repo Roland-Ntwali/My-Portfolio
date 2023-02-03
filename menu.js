@@ -1,19 +1,19 @@
-const menu_button = document.getElementById("menu_btn");
-const close_menu = document.getElementById("close_menu");
-const hide_menu = document.getElementById("hideb")
-
-menu_button.addEventListener("click", () => {
-  mobile_menu.classList.add("show");
-  menu_button.style.display = 'none';
+const menuButton = document.getElementById('menu_btn');
+const closeMenu = document.getElementById('close_menu');
+const hideMenu = document.getElementById('hideb');
+const mobileMenu = document.getElementById('mobile_menu');
+menuButton.addEventListener('click', () => {
+  mobileMenu.classList.add('show');
+  menuButton.style.display = 'none';
 });
 
-close_menu.addEventListener("click", () => {
-  mobile_menu.classList.remove("show");
-  menu_button.classList.remove("mobile_menu");
-  menu_btn.style.display = 'flex';
+closeMenu.addEventListener('click', () => {
+  mobileMenu.classList.remove('show');
+  menuButton.classList.remove('mobile_menu');
+  menuButton.style.display = 'flex';
 });
 
-hide_menu.addEventListener("click", () => {
-  mobile_menu.classList.remove("show");
-  menu_btn.style.display = 'flex';
+hideMenu.addEventListener('click', () => {
+  mobileMenu.classList.remove('show');
+  menuButton.style.display = 'flex';
 });

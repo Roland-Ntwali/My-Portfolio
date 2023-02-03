@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/popup/popup.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/popup.css">
     <script defer src="menu.js"></script>
-    <script defer src="/popup/popup.js"></script>
+    <script defer src="/popup.js"></script>
+    <script defer src="/validation.js"></script>
     <title>Portofolio</title>
 </head>
 <body>
@@ -377,6 +378,7 @@
           to help with it
         </p>
       </div>
+      <p id="form-error"></p>
       <form class="contact-section" action="https://formspree.io/f/xyyoddrv" method="post">
         <input id="name" class="text-holder1" type="text" name="name" maxlength="30" required placeholder="Full names" />
         <input id="email" class="text-holder1" type="email" name="name" required placeholder="Your e-mail address" />

@@ -742,7 +742,7 @@ button:disabled {
   background-position: right 45px;
   background-repeat: no-repeat;
   border-top-left-radius: 100px;
-  height: 805px;
+  height: 845px;
   width: 375px;
   left: 0;
   top: 5410px;
@@ -1000,4 +1000,15 @@ button:disabled {
   .menu_btn {
     display: none;
   }
+}
+
+#form-error {
+  display: none;
+  background-color: #dfe1e6;
+  color: rgb(240, 34, 34);
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  text-align: center;
 }

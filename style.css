@@ -21,7 +21,7 @@ body {
 
 @media (min-width: 728px) {
   .nav-bar {
-    width: 1440px;
+    width: 100%;
     margin: auto;
   }
 }
@@ -187,10 +187,12 @@ body {
     background: url(./images/Header\ bg@2x.png);
     background-size: 90%;
     background-color: #fff;
-    width: 1422px;
+    width: 100%;
     margin: auto;
     display: flex;
     margin-bottom: 150px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -423,16 +425,16 @@ button {
 button:enabled {
   color: #6070ff;
   background-color: #fff;
-  border-color: #6070ff;
+  border-color: #6070ff86;
 }
 
 button:hover {
   color: #fff;
-  background-color: #6070ff;
+  background-color: #6070ff75;
 }
 
 button:active {
-  background-color: #2230d2;
+  background-color: #2231d2a2;
   color: #fff;
 }
 
@@ -443,14 +445,27 @@ button:disabled {
 }
 
 .click-btn {
-  font-size: 20px;
   color: #396df2;
   padding: 13px;
   background-color: transparent;
   margin-top: 2rem;
   border: 1px solid #396df2;
   border-radius: 10px;
-  font-weight: 550;
+  height: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.inline {
+  display: flex;
+  align-items: center;
 }
 
 .card-contain {
@@ -474,6 +489,8 @@ button:disabled {
     top: 0;
     border-radius: 24px;
     display: flex;
+    margin: auto;
+    margin-bottom: 110px;
   }
 }
 
@@ -517,9 +534,11 @@ button:disabled {
 
 @media (min-width: 728px) {
   .about-container {
-    width: 1440px;
+    width: 100%;
     height: 924px;
     top: 4535px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -732,7 +751,7 @@ button:disabled {
 
 @media (min-width: 720px) {
   .contacts {
-    width: 1495px;
+    width: 100%;
     height: 846px;
     left: 0;
     top: 5125px;

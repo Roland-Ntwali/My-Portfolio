@@ -21,7 +21,7 @@ body {
 
 @media (min-width: 728px) {
   .nav-bar {
-    width: 1440px;
+    width: 100%;
     margin: auto;
   }
 }

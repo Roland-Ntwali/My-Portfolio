@@ -1,26 +1,22 @@
-// Store data in local storage
-function storeData(data) {
-  localStorage.setItem('storedData', JSON.stringify(data));
-}
-
-// Retrieve data from local storage
-function retrieveData() {
-  return JSON.parse(localStorage.getItem('storedData')) || {};
-}
-const form = document.getElementById('form');
-const inputs = form.querySelectorAll('input');
-
-// Autofill form fields with stored data
-const storedData = retrieveData();
-inputs.forEach((input) => {
-  if (storedData[input.name]) {
-    input.value = storedData[input.name];
-  }
+const form = document.querySelector('#contact-input');
+const store = [];
+form.addEventListener('input', (ev) => {
+  ev.preventDefault();
+  const data = {
+    id: Date.now,
+    name: document.getElementById('name').value,
+    email: document.getElementById('email').value,
+    message: document.getElementById('message').value,
+  };
+  store.push(data);
+  localStorage.setItem('InputData', JSON.stringify(data));
 });
-
-// Update stored data when input fields change
-form.addEventListener('input', (event) => {
-  const input = event.target;
-  storedData[input.name] = input.value;
-  storeData(storedData);
+const retrivedata = localStorage.getItem('InputData');
+const getdata = JSON.parse(retrivedata);
+window.addEventListener('load', () => {
+  if (localStorage.getItem('InputData')) {
+    document.getElementById('name').value = getdata.name;
+    document.getElementById('email').value = getdata.email;
+    document.getElementById('message').value = getdata.message;
+  }
 });

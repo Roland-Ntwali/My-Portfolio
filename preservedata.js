@@ -1,22 +1,26 @@
-const form = document.querySelector('#contact-input');
-const store = [];
-form.addEventListener('input', (ev) => {
-  ev.preventDefault();
-  const data = {
-    id: Date.now,
-    name: document.getElementById('name').value,
-    email: document.getElementById('email').value,
-    message: document.getElementById('message').value,
-  };
-  store.push(data);
-  localStorage.setItem('InputData', JSON.stringify(data));
-});
-const retrivedata = localStorage.getItem('InputData');
-const getdata = JSON.parse(retrivedata);
-window.addEventListener('load', () => {
-  if (localStorage.getItem('InputData')) {
-    document.getElementById('name').value = getdata.name;
-    document.getElementById('email').value = getdata.email;
-    document.getElementById('message').value = getdata.message;
+const contactForm = document.querySelector('#contactInput');
+
+const contactDetails = {
+  fullName: String,
+  email: String,
+  message: String,
+};
+
+window.onload = () => {
+  const contactData = JSON.parse(localStorage.getItem('contactDetails'));
+
+  // populate the local storage information into the contact form
+  if (contactData) {
+    document.getElementById('name').value = contactData.fullName;
+    document.getElementById('email').value = contactData.email;
+    document.getElementById('message').value = contactData.message;
   }
+};
+
+contactForm.addEventListener('input', () => {
+  contactDetails.fullName = document.getElementById('name').value;
+  contactDetails.email = document.getElementById('email').value;
+  contactDetails.message = document.getElementById('message').value;
+  // set the local storage data with the upddated contact form
+  localStorage.setItem('contactDetails', JSON.stringify(contactDetails));
 });

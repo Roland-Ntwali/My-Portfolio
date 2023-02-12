@@ -743,7 +743,7 @@ button:disabled {
   background-repeat: no-repeat;
   border-top-left-radius: 100px;
   height: 845px;
-  width: 375px;
+  width: 100%;
   left: 0;
   top: 5410px;
   margin: auto;

@@ -2,7 +2,7 @@ const projects = [
   {
     title: 'TONIC 1',
     prof: ['Canopy', 'back end Dev', '2015'],
-    src: 'images/SnapshootPortfolio.png',
+    src: './images/SnapshootPortfolio.png',
     description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe."],
     technologies: ['html', 'css', 'javascript', 'Github', 'Ruby', 'Bootstrap'],
     seeLiveLink: '#',
@@ -12,7 +12,7 @@ const projects = [
     title: 'TONIC 2',
 
     prof: ['Canopy', 'back end Dev', '2015'],
-    src: 'images/SnapshootPortfolio.png',
+    src: './images/SnapshootPortfolio.png',
     description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe."],
     technologies: ['html', 'css', 'javascript', 'Github', 'Ruby', 'Bootstrap'],
     seeLiveLink: '#',
@@ -21,7 +21,7 @@ const projects = [
   {
     title: 'TONIC 3',
     prof: ['Canopy', 'back end Dev', '2015'],
-    src: 'images/SnapshootPortfolio.png',
+    src: './images/SnapshootPortfolio.png',
     description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe."],
     technologies: ['html', 'css', 'javascript', 'Github', 'Ruby', 'Bootstrap'],
     seeLiveLink: '#',
@@ -30,7 +30,7 @@ const projects = [
   {
     title: 'TONIC 4',
     prof: ['Canopy', 'back end Dev', '2015'],
-    src: 'images/SnapshootPortfolio.png',
+    src: './images/SnapshootPortfolio.png',
     description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe."],
     technologies: ['html', 'css', 'javascript', 'Github', 'Ruby', 'Bootstrap'],
     seeLiveLink: '#',
@@ -62,13 +62,13 @@ function desktop(index) {
             <li id="canopy" class="lister">${projects[index].prof[0]}</li>
             <img
                     id="btn-popup"
-                    src="images/Counter.png"
+                    src="./images/Counter.png"
                     alt="Dot"
                   />
             <li class="lister">${projects[index].prof[1]}</li>
             <img
                     id="btn-popup"
-                    src="images/Counter.png"
+                    src="./images/Counter.png"
                     alt="Dot"
                   />
             <li class="lister">${projects[index].prof[2]}</li>
@@ -101,10 +101,10 @@ function desktop(index) {
 <hr class="line-popup">
 <div class="inline">
   <button class="click-btnn">
-<a href="${projects[index].seeLiveLink}">See Live <img src="images/Icon-Export.svg" alt="See live"></i></a>
+<a href="${projects[index].seeLiveLink}">See Live <img src="./images/Icon-Export.svg" alt="See live"></i></a>
 </button>
 <button class="click-btnn">
-<a href="${projects[index].seeSourceLink}">See Source <img src="images/ggg.png" alt="Github icon"></a>
+<a href="${projects[index].seeSourceLink}">See Source <img src="./images/ggg.png" alt="Github icon"></a>
 </button>
 </div>
 </div>
@@ -157,10 +157,10 @@ function mobile(index) {
   </ul>
 </div>
 <button>
-<a href="${projects[index].seeLiveLink}">See Live <img src="img/github.png" alt="See live"></i></a>
+<a href="${projects[index].seeLiveLink}">See Live <img src="./img/github.png" alt="See live"></i></a>
 </button>
 <button>
-<a href="${projects[index].seeSourceLink}">See Source <img src="img/github.png" alt="Github icon"></a>
+<a href="${projects[index].seeSourceLink}">See Source <img src="./img/github.png" alt="Github icon"></a>
 </button>
 </div>
     </div>

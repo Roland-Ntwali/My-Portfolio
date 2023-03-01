@@ -1,12 +1,12 @@
 const projects = [
   {
-    title: 'TONIC 1',
-    prof: ['Canopy', 'back end Dev', '2015'],
-    src: './images/SnapshootPortfolio.png',
-    description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe."],
+    title: 'ToDo list',
+    prof: ['Canopy', 'back end Dev', '2023'],
+    src: './images/todo-list.png',
+    description: ['My to-do list project is a simple and intuitive task management tool that helps users organize their tasks in one place. With features like adding, editing, and deleting tasks, it is an ideal solution for individuals looking to stay productive and on top of their to-do lists.'],
     technologies: ['html', 'css', 'javascript', 'Github', 'Ruby', 'Bootstrap'],
-    seeLiveLink: '#',
-    seeSourceLink: '#',
+    seeLiveLink: 'https://roland-ntwali.github.io/To-Do-list/',
+    seeSourceLink: 'https://github.com/Roland-Ntwali/To-Do-list',
   },
   {
     title: 'TONIC 2',

@@ -3,7 +3,7 @@ const projects = [
     title: 'ToDo list',
     prof: ['Canopy', 'back end Dev', '2023'],
     src: './images/todo-list.png',
-    description: ["My to-do list project is a simple and intuitive task management tool that helps users organize their tasks in one place. With features like adding, editing, and deleting tasks, it is an ideal solution for individuals looking to stay productive and on top of their to-do lists."],
+    description: ['My to-do list project is a simple and intuitive task management tool that helps users organize their tasks in one place. With features like adding, editing, and deleting tasks, it is an ideal solution for individuals looking to stay productive and on top of their to-do lists.'],
     technologies: ['html', 'css', 'javascript', 'Github', 'Ruby', 'Bootstrap'],
     seeLiveLink: 'https://roland-ntwali.github.io/To-Do-list/',
     seeSourceLink: 'https://github.com/Roland-Ntwali/To-Do-list',
